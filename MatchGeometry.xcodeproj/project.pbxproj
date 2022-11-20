@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8846831A2929B0EA00580CBA /* MatchGeometryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884683192929B0EA00580CBA /* MatchGeometryApp.swift */; };
+		8846831C2929B0EA00580CBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8846831B2929B0EA00580CBA /* ContentView.swift */; };
+		8846831E2929B0EB00580CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8846831D2929B0EB00580CBA /* Assets.xcassets */; };
+		884683212929B0EB00580CBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884683202929B0EB00580CBA /* Preview Assets.xcassets */; };
+		8846832B2929B0EB00580CBA /* MatchGeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8846832A2929B0EB00580CBA /* MatchGeometryTests.swift */; };
+		884683352929B0EB00580CBA /* MatchGeometryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884683342929B0EB00580CBA /* MatchGeometryUITests.swift */; };
+		884683372929B0EB00580CBA /* MatchGeometryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884683362929B0EB00580CBA /* MatchGeometryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		884683272929B0EB00580CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8846830E2929B0EA00580CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884683152929B0EA00580CBA;
+			remoteInfo = MatchGeometry;
+		};
+		884683312929B0EB00580CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8846830E2929B0EA00580CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884683152929B0EA00580CBA;
+			remoteInfo = MatchGeometry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		884683162929B0EA00580CBA /* MatchGeometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchGeometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		884683192929B0EA00580CBA /* MatchGeometryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchGeometryApp.swift; sourceTree = "<group>"; };
+		8846831B2929B0EA00580CBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8846831D2929B0EB00580CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		884683202929B0EB00580CBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		884683262929B0EB00580CBA /* MatchGeometryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchGeometryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8846832A2929B0EB00580CBA /* MatchGeometryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchGeometryTests.swift; sourceTree = "<group>"; };
+		884683302929B0EB00580CBA /* MatchGeometryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchGeometryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		884683342929B0EB00580CBA /* MatchGeometryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchGeometryUITests.swift; sourceTree = "<group>"; };
+		884683362929B0EB00580CBA /* MatchGeometryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchGeometryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		884683132929B0EA00580CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884683232929B0EB00580CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8846832D2929B0EB00580CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8846830D2929B0EA00580CBA = {
+			isa = PBXGroup;
+			children = (
+				884683182929B0EA00580CBA /* MatchGeometry */,
+				884683292929B0EB00580CBA /* MatchGeometryTests */,
+				884683332929B0EB00580CBA /* MatchGeometryUITests */,
+				884683172929B0EA00580CBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		884683172929B0EA00580CBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				884683162929B0EA00580CBA /* MatchGeometry.app */,
+				884683262929B0EB00580CBA /* MatchGeometryTests.xctest */,
+				884683302929B0EB00580CBA /* MatchGeometryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		884683182929B0EA00580CBA /* MatchGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				884683192929B0EA00580CBA /* MatchGeometryApp.swift */,
+				8846831B2929B0EA00580CBA /* ContentView.swift */,
+				8846831D2929B0EB00580CBA /* Assets.xcassets */,
+				8846831F2929B0EB00580CBA /* Preview Content */,
+			);
+			path = MatchGeometry;
+			sourceTree = "<group>";
+		};
+		8846831F2929B0EB00580CBA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				884683202929B0EB00580CBA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		884683292929B0EB00580CBA /* MatchGeometryTests */ = {
+			isa = PBXGroup;
+			children = (
+				8846832A2929B0EB00580CBA /* MatchGeometryTests.swift */,
+			);
+			path = MatchGeometryTests;
+			sourceTree = "<group>";
+		};
+		884683332929B0EB00580CBA /* MatchGeometryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				884683342929B0EB00580CBA /* MatchGeometryUITests.swift */,
+				884683362929B0EB00580CBA /* MatchGeometryUITestsLaunchTests.swift */,
+			);
+			path = MatchGeometryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		884683152929B0EA00580CBA /* MatchGeometry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8846833A2929B0EB00580CBA /* Build configuration list for PBXNativeTarget "MatchGeometry" */;
+			buildPhases = (
+				884683122929B0EA00580CBA /* Sources */,
+				884683132929B0EA00580CBA /* Frameworks */,
+				884683142929B0EA00580CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatchGeometry;
+			productName = MatchGeometry;
+			productReference = 884683162929B0EA00580CBA /* MatchGeometry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		884683252929B0EB00580CBA /* MatchGeometryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8846833D2929B0EB00580CBA /* Build configuration list for PBXNativeTarget "MatchGeometryTests" */;
+			buildPhases = (
+				884683222929B0EB00580CBA /* Sources */,
+				884683232929B0EB00580CBA /* Frameworks */,
+				884683242929B0EB00580CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884683282929B0EB00580CBA /* PBXTargetDependency */,
+			);
+			name = MatchGeometryTests;
+			productName = MatchGeometryTests;
+			productReference = 884683262929B0EB00580CBA /* MatchGeometryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8846832F2929B0EB00580CBA /* MatchGeometryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884683402929B0EB00580CBA /* Build configuration list for PBXNativeTarget "MatchGeometryUITests" */;
+			buildPhases = (
+				8846832C2929B0EB00580CBA /* Sources */,
+				8846832D2929B0EB00580CBA /* Frameworks */,
+				8846832E2929B0EB00580CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884683322929B0EB00580CBA /* PBXTargetDependency */,
+			);
+			name = MatchGeometryUITests;
+			productName = MatchGeometryUITests;
+			productReference = 884683302929B0EB00580CBA /* MatchGeometryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8846830E2929B0EA00580CBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					884683152929B0EA00580CBA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					884683252929B0EB00580CBA = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 884683152929B0EA00580CBA;
+					};
+					8846832F2929B0EB00580CBA = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 884683152929B0EA00580CBA;
+					};
+				};
+			};
+			buildConfigurationList = 884683112929B0EA00580CBA /* Build configuration list for PBXProject "MatchGeometry" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8846830D2929B0EA00580CBA;
+			productRefGroup = 884683172929B0EA00580CBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				884683152929B0EA00580CBA /* MatchGeometry */,
+				884683252929B0EB00580CBA /* MatchGeometryTests */,
+				8846832F2929B0EB00580CBA /* MatchGeometryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		884683142929B0EA00580CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884683212929B0EB00580CBA /* Preview Assets.xcassets in Resources */,
+				8846831E2929B0EB00580CBA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884683242929B0EB00580CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8846832E2929B0EB00580CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		884683122929B0EA00580CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8846831C2929B0EA00580CBA /* ContentView.swift in Sources */,
+				8846831A2929B0EA00580CBA /* MatchGeometryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884683222929B0EB00580CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8846832B2929B0EB00580CBA /* MatchGeometryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8846832C2929B0EB00580CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884683372929B0EB00580CBA /* MatchGeometryUITestsLaunchTests.swift in Sources */,
+				884683352929B0EB00580CBA /* MatchGeometryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		884683282929B0EB00580CBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 884683152929B0EA00580CBA /* MatchGeometry */;
+			targetProxy = 884683272929B0EB00580CBA /* PBXContainerItemProxy */;
+		};
+		884683322929B0EB00580CBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 884683152929B0EA00580CBA /* MatchGeometry */;
+			targetProxy = 884683312929B0EB00580CBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		884683382929B0EB00580CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		884683392929B0EB00580CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8846833B2929B0EB00580CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatchGeometry/Preview Content\"";
+				DEVELOPMENT_TEAM = YHL6YP9PRW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Trial.MatchGeometry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8846833C2929B0EB00580CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MatchGeometry/Preview Content\"";
+				DEVELOPMENT_TEAM = YHL6YP9PRW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Trial.MatchGeometry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8846833E2929B0EB00580CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YHL6YP9PRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Trial.MatchGeometryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatchGeometry.app/MatchGeometry";
+			};
+			name = Debug;
+		};
+		8846833F2929B0EB00580CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YHL6YP9PRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Trial.MatchGeometryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatchGeometry.app/MatchGeometry";
+			};
+			name = Release;
+		};
+		884683412929B0EB00580CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YHL6YP9PRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Trial.MatchGeometryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MatchGeometry;
+			};
+			name = Debug;
+		};
+		884683422929B0EB00580CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YHL6YP9PRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Trial.MatchGeometryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MatchGeometry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		884683112929B0EA00580CBA /* Build configuration list for PBXProject "MatchGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884683382929B0EB00580CBA /* Debug */,
+				884683392929B0EB00580CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8846833A2929B0EB00580CBA /* Build configuration list for PBXNativeTarget "MatchGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8846833B2929B0EB00580CBA /* Debug */,
+				8846833C2929B0EB00580CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8846833D2929B0EB00580CBA /* Build configuration list for PBXNativeTarget "MatchGeometryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8846833E2929B0EB00580CBA /* Debug */,
+				8846833F2929B0EB00580CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884683402929B0EB00580CBA /* Build configuration list for PBXNativeTarget "MatchGeometryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884683412929B0EB00580CBA /* Debug */,
+				884683422929B0EB00580CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8846830E2929B0EA00580CBA /* Project object */;
+}
