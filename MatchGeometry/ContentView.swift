@@ -68,7 +68,7 @@ struct ContentView: View {
             }
             Text(text)
                 .foregroundColor(namespace != "" ? .black : .gray)
-                .frame(maxWidth: .infinity)
+               
                 .onTapGesture {
                     withAnimation(.spring()) {
                         gestureHandler()
