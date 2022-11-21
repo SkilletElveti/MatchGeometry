@@ -10,8 +10,8 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var switchedView: Bool = false
-    @State private var nameSpaceId1: String = ""
-    @State private var nameSpaceId2: String = "id1"
+    @State private var nameSpaceId1: String = "id1"
+    @State private var nameSpaceId2: String = ""
     @State private var nameSpaceId3: String = ""
     @State private var nameSpaceId4: String = ""
     @Namespace private var flipNamespace
